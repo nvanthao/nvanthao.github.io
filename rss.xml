@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Aug 2019 09:12:48 GMT</lastBuildDate><item><title><![CDATA[I won $54.45 in Powerball!!!]]></title><description><![CDATA[This is big, I have never won any lotto price let alone 2 wins in 1 entry 1. What’s more, the chosen numbers were coming from Math.random…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt; This is big, I have never won any lotto price let alone 2 wins in 1 entry [1]. What’s more, the chosen numbers were coming from &lt;strong&gt;Math.random&lt;/strong&gt; function! What’s more more, the same function gave me &lt;strong&gt;3 WEEKS WIN IN A ROWS!!!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Here’s the story.&lt;/p&gt;
+&lt;p&gt;I was playing with Google Compute Engine the other day, simply want to write a Hello World app and access it from the VM External IP [2]&lt;/p&gt;
+&lt;p&gt;To start, I created a Debian 9.9 VM, and install Nginx, Express.js&lt;/p&gt;
+&lt;p&gt;Then I configure Nginx as a reverse proxy [3] and direct trafic to the Express app in localhost&lt;/p&gt;
+&lt;p&gt;Here’s what interesting, the Express app will generate 2 Powerball games&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 number coming from Express when it handles the GET request&lt;/li&gt;
+&lt;li&gt;1 number generated from client side in the View Express returned&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then I send my brother who is living far away from me the reverse IP of the VM [4] &lt;strong&gt;x.x.x.x.bc.googleusercontent.com&lt;/strong&gt; and ask for a screenshot =)&lt;/p&gt;
+&lt;p&gt;Voila!
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 310px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f3ba5f2c9cb7e5e788eac1f9efed0cf4/fa223/won.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 149.3548387096774%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAACXBIWXMAAAsSAAALEgHS3X78AAAEmUlEQVRIx61W6W/cVBDf/5A/gU9I/Yr4gCpQBUI0peVIEEIEQSHlCAoIIhBB6YF6JWqy2fuMd32vvWt7197D9t7+Me95N0fbqAI60mieZ/3Gb2Z+83ubmM/nmDGdzRFFESm4nS/WzLLfptMZ2Rmms6fsdAoWY6kJkPiDPhy7iU7bIbXR7broeW00myZ6tKZP4HkSBj4syzrn4wHD4RiVugXX81GomnA6fVRFC5bTw7Fko+MFkBtdsiE0swfHDaDQM/tQo2VjQqdkwjLjAe/sy3jl0hY+2UjijZU7WN04xFsf/Y01en79/du4/vUTXP7wHq59uY83P7iLlfU9rHyxh7raxOp3v6EsqjzgScptb4h7FFTSu9hL6ZDo60+yDYiaR9bgNlkwISguDnIGjmUXmbLF61qqq/DD4WnKvu9jPCLHfIzJeIhoNsZ0MsL8KTudDDEaBmRDej8gDeH7A/INEYYhgiBAv99HolqtoFwu41iooVqt8nWxVCJLfrKFYhEl8omiBMMwoOsNNBoN6A1mDe6rCQLy+QI1sYlEiTal0ykepFqpIJNOI5VKkS+NYqGITCaLZPIItVqdNpsnAZdBma9eryGXy8cBPc8jmPQQ2y4/dq/X4xoGfUrJxzD0+drvdwlisQ5oHSysS3vZvna7HTdlKQyoo9GIg3U2m3CoFAQbou5RJ9uoUVOOpQ5vCmtUhXyiFsOH1fEEh+x0TBzHQiaXhaopKOTTWL11hMs37nK4vPvpA1wlqLz32UO8vXof76zdx5W1B/hqKwed3t/d3aWpWgRk+InYNLCBmMaDMafTmrZPWPNgWAN+Ir3V56deqqi5UAnoUTTjXWbbE3x+F6NlDmQU7H0UrMfoDz2MCRKz6ZDgNOJf4pY2U3HITp+dxeWkzKM5f96urOPao9ew8uhVFI0DSDWVuqlDUTW0aK5rdYk6KkJRFHRc7wyhxIqTE0ZxuuHERydowgsdYqApXiTRgmE4Oy1sgi2WdXyRxHQ1u/D3k1keDHzu6HY91EURpqHThJSgaSryBG5Flmhyirj1exk3f8miXhMgSTLYUMiUvuu6ODpKxk1huTJQxoEHMEyT16tcqdIUNFA9FggWKk2KgJ93j7H5RxGqIlMg5qtB03V4FDCTyZzWcMll/1eeqeFp8Au3XMje52rIKIxJn+Y3rkkHqqrCtm2esmkakCURmztVfEs1VBSJoKRyllE1jea+iyKxUrQcPUYEvCk0ggLVpe04hLc6r2GBN0XmTbn5axHrmykIRHkCsU+JgjBa6xApJA8PTyflpddwCcyXEpAtgiCmnodJDR9/c4CW1Uar1eL4Ms0mLFprqoLtezVs7ZRhNDROrjKVgl2jot7C7uMjfvvFl1TH5QG3/irj0pUdiLJOM6zRxga/GhiQM5kUPv8pi1X6YDGfJYYvE0vnIFKtM1UZG9u3MRyNWQ3PQuK/y/wsOSzrt6f9iR8LN/B97ipkpwJDb3LIsLRs6nyrRelbLVK6/Dudc2xzroZRdBrwh/x10hXorgDXoXuGMMbuGqYsiE3BHYIJw+7zkJE4+0fnX6d5Zu9S/wFBhMz9+tpjVQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;won&quot;
+        title=&quot;won&quot;
+        src=&quot;/static/f3ba5f2c9cb7e5e788eac1f9efed0cf4/fa223/won.png&quot;
+        srcset=&quot;/static/f3ba5f2c9cb7e5e788eac1f9efed0cf4/cf440/won.png 148w,
+/static/f3ba5f2c9cb7e5e788eac1f9efed0cf4/d2d38/won.png 295w,
+/static/f3ba5f2c9cb7e5e788eac1f9efed0cf4/fa223/won.png 310w&quot;
+        sizes=&quot;(max-width: 310px) 100vw, 310px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Albeit the odd is there, I believe the force was with me that 3 weeks! :D
+With the amount won, I bought me a domain and will use the rest with some random generators when I’m learning new stuff. This will be my &lt;strong&gt;Hello World&lt;/strong&gt; program!&lt;/p&gt;
+&lt;p&gt;Here’re 2 numbers for you, don’t forget me if you hit the jackpot! =)
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/336f4fdbe474282217cad985b86bb829/4d248/tobe-won.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.892813641900123%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAC4jAAAuIwF4pT92AAABRElEQVQY05WOzUvCABjG94cGBQVRVOcO3bp4ESrNKCKK1Iu3JGSaZpba/Ao0o6Zuc7OZ1QgKD33or20YSHTpBw/v+7zwPLxCq6XQbuuYZhdd1+h2Tcz7Dpqm8vz0iGHoNJuy7RVeXiz8/g2WFheYn5tDFEU0O/vQ61Gt1Xh9e0O4k2UUVbWDBmfZMtlCnVSmQvy0SL54Q/KsTCJdQExJSOVbllc8TEzOMjU9QzwuohsdLMtCbjTo9/sIjHGUauHdK7AayOE7LI9UwResEAhfsRmqsBO5I5rRqCkGfyEMBgO+vgauicTqrO1LbAaLBEIltsIlPNtZ1g8k+37peu9unnC0RCyT5/3jk+Fw6MrpcabgGlsOpZpJIquQljRObSXzKsfpBic5hfiFQjKnIp63KFR1rhuKW+IwHOXdD3+W8eN/+J37BpmhqCAGmvDMAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;tobewon&quot;
+        title=&quot;tobewon&quot;
+        src=&quot;/static/336f4fdbe474282217cad985b86bb829/b9e4f/tobe-won.png&quot;
+        srcset=&quot;/static/336f4fdbe474282217cad985b86bb829/cf440/tobe-won.png 148w,
+/static/336f4fdbe474282217cad985b86bb829/d2d38/tobe-won.png 295w,
+/static/336f4fdbe474282217cad985b86bb829/b9e4f/tobe-won.png 590w,
+/static/336f4fdbe474282217cad985b86bb829/4d248/tobe-won.png 821w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;[1] &lt;a href=&quot;https://thelott.com/powerball/how-to-win&quot;&gt;https://thelott.com/powerball/how-to-win&lt;/a&gt;&lt;br&gt;
+[2] &lt;a href=&quot;https://cloud.google.com/compute/docs/instances/view-ip-address&quot;&gt;https://cloud.google.com/compute/docs/instances/view-ip-address&lt;/a&gt;&lt;br&gt;
+[3] &lt;a href=&quot;https://www.linode.com/docs/web-servers/nginx/use-nginx-reverse-proxy/&quot;&gt;https://www.linode.com/docs/web-servers/nginx/use-nginx-reverse-proxy/&lt;/a&gt;&lt;br&gt;
+[4] &lt;a href=&quot;https://mxtoolbox.com/ReverseLookup.aspx&quot;&gt;https://mxtoolbox.com/ReverseLookup.aspx&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
