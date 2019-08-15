@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://nvanthao.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 07 Aug 2019 10:42:23 GMT</lastBuildDate><item><title><![CDATA[I won $54.45 in Powerball!!!]]></title><description><![CDATA[This is big, I have never won any lotto price let alone 2 wins in 1 entry 1. What’s more, the chosen numbers were coming from Math.random…]]></description><link>https://nvanthao.github.io/hello-world/</link><guid isPermaLink="false">https://nvanthao.github.io/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt; This is big, I have never won any lotto price let alone 2 wins in 1 entry [1]. What’s more, the chosen numbers were coming from &lt;strong&gt;Math.random&lt;/strong&gt; function! What’s more more, the same function gave me &lt;strong&gt;3 WEEKS WIN IN A ROWS!!!&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://nvanthao.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 15 Aug 2019 10:40:20 GMT</lastBuildDate><item><title><![CDATA[A quick look at cookie sync]]></title><description><![CDATA[uid is a cookie on .criteo domain that is used to anonymously collect user activities on multiple websites with the purpose of displaying…]]></description><link>https://nvanthao.github.io/cookie-sync/</link><guid isPermaLink="false">https://nvanthao.github.io/cookie-sync/</guid><pubDate>Tue, 13 Aug 2019 11:27:05 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;uid&lt;/strong&gt; is a cookie on .criteo domain that is used to anonymously collect user activities on multiple websites with the purpose of displaying targeted ads.&lt;/p&gt;
+&lt;p&gt;This cookie is set when the first call to Criteo widget server is made
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 335px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8c97f9943e290e7435a701bc8160316e/de5dc/set-uid.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.56716417910448%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABMElEQVQoz41R7W6DMBDjHVYICSElgfRzbWnHR6m0938s7y4jXbVuUn9YZ3HEsn2J1gbeb7A+dChLA11oGLOEkBKZyCFyCSmLl5EIIaGKEqbZQ9sNiqWHkgZN6VGXDaqiQpqJIM5gzm/+Q5LnClmWg2dznOAOA7zdYfIjet/jUrckarEkYUOwxJXU4TG/+Y0gGJb0k9t1qLYttvYdH/UFrTvhRBh8h675xm11hdMuuI0id/HoUNBSqhL+/Anndsgp1oKQzvMtywIW8+TvKcefa4ii4snhvke9OuFoj7itr+jJEbtsXYuR4o9UAzsfiE+rMcwz7dSDy+TRsq48tHHUk6NYdYCleAw+UODzjjl3a1QVoorYYRQLlvmaMc4cOUZ75uIeWcz9iZ8O/77Yy3hw+AXxsvC6KOqu8AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;set-uid&quot;
+        title=&quot;set-uid&quot;
+        src=&quot;/static/8c97f9943e290e7435a701bc8160316e/de5dc/set-uid.png&quot;
+        srcset=&quot;/static/8c97f9943e290e7435a701bc8160316e/cf440/set-uid.png 148w,
+/static/8c97f9943e290e7435a701bc8160316e/d2d38/set-uid.png 295w,
+/static/8c97f9943e290e7435a701bc8160316e/de5dc/set-uid.png 335w&quot;
+        sizes=&quot;(max-width: 335px) 100vw, 335px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now after some times, let’s go to view our cookie databases.
+In Linux, for Firefox, you can view this in &lt;strong&gt;~/.mozilla/firefox/$PROFILE_NAME/cookies.sqlite&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we do below query,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;SELECT&lt;/span&gt; name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; host&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;value&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; moz_cookies
+&lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;LIKE&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;%e2a2f822-a67a-44ed-99b3-fa83b3b57997%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We can see multiple entries with content like our Criteo UID
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7630ea2dbb0e44c6b7307781ea7d5347/d68ed/sync.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 77.24719101123596%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACO0lEQVQ4y3VS2Y7bMAzM/39a0Zdt0ZfNYUu2fF/xfcSZcmQ73UV3AwzoiNSIM+SpLnNkSYS+KbHOPdapw4MYW8x98zUGov0SpywJ4GmDyyVGFucwQYooLpEkdyyPGdM8YT6w7HEaMY+DxGGLH3AKfIX3d40fPwOcdYZf1wRNWuGZZEBVbchzoCyBNLXfz2nCd79TGofSTfL59PkE1vV/PB4WT+a/IyzSGEWeYRp7jEMn6DdJ84hBvgc5Y5xE3mKljxLHrUaw7JhY24mHdZmJd9JlFMD3FJp7gSjwEYcGnnJwLwv0bW1rjOR5Tpv+/H6z+dBo+a+RS2NNleNUZjHCMBCrZAjLIspWBIEMyvdRFAXqusb9fre2uK6S2hCe58vjnkQPSilordE0zS45ixAYKRCCvpe1WR8ISShFruvANwaNkKYyENd1LSFrPxISfHj3MIJzu8oQZQ/F8GWZLZnjOLZoHEdbmKYJzuezJbndbpK/2ZrL5WJj07b/CNnhMAxWLmV7nrYXeXbYQMkkYo4ElMnOeKa1Qtd1nwmTJJUJzrIVC6JdFr2kjyQsJZIgjmMYscHsNpGYj78kcyiedmVfc7tf9JAX6FcURbZDnmdZiuv1aknYIfMk2+Q7aA/JWRxAiflbsZFpV/ZFemTsoIaXh46QKMFBppRr73F4HOguObQJXuboO3mJXVAeJR+EuSw/O2H3Smmp8WwdyVnL1XpJ1kLIJD2kvG3XtgvHflWyBeyKhId3fNAQ8v/Yhr/nP3AhYaKgrgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sync&quot;
+        title=&quot;sync&quot;
+        src=&quot;/static/7630ea2dbb0e44c6b7307781ea7d5347/b9e4f/sync.png&quot;
+        srcset=&quot;/static/7630ea2dbb0e44c6b7307781ea7d5347/cf440/sync.png 148w,
+/static/7630ea2dbb0e44c6b7307781ea7d5347/d2d38/sync.png 295w,
+/static/7630ea2dbb0e44c6b7307781ea7d5347/b9e4f/sync.png 590w,
+/static/7630ea2dbb0e44c6b7307781ea7d5347/d68ed/sync.png 712w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is the basis of Cookie sync, at some point of time in a page, Criteo script will call other publisher networks passing its UID.
+Other networks may drop another cookie with Criteo UID as value and voila, they now can send this data point to Criteo later.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I won $54.45 in Powerball!!!]]></title><description><![CDATA[This is big, I have never won any lotto price let alone 2 wins in 1 entry 1. What’s more, the chosen numbers were coming from Math.random…]]></description><link>https://nvanthao.github.io/hello-world/</link><guid isPermaLink="false">https://nvanthao.github.io/hello-world/</guid><pubDate>Thu, 01 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt; This is big, I have never won any lotto price let alone 2 wins in 1 entry [1]. What’s more, the chosen numbers were coming from &lt;strong&gt;Math.random&lt;/strong&gt; function! What’s more more, the same function gave me &lt;strong&gt;3 WEEKS WIN IN A ROWS!!!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt; Here’s the story.&lt;/p&gt;
 &lt;p&gt;I was playing with Google Compute Engine the other day, simply want to write a Hello World app and access it from the VM External IP [2]&lt;/p&gt;
 &lt;p&gt;To start, I created a Debian 9.9 VM, and install Nginx, Express.js&lt;/p&gt;
